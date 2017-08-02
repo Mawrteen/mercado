@@ -1,0 +1,29 @@
+{
+  "name": "authentication",
+  "version": "0.0.1",
+  "description": "Authentication REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mawrteen@bitbucket.org/j-bolt/authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/j-bolt/authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.4.14",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0"
+  }
+}

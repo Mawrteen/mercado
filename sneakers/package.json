@@ -1,0 +1,26 @@
+{
+  "name": "sneakers",
+  "version": "0.0.1",
+  "description": "Sneakers Management Microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mawrteen@bitbucket.org/j-bolt/sneakers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/j-bolt/sneakers#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6"
+  }
+}
